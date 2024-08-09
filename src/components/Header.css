@@ -1,0 +1,38 @@
+/* src/components/Header.css
+header {
+    background-color: #282c34;
+    padding: 20px;
+    color: white;
+    text-align: center;
+} */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    /* Adjust the background color as needed */
+}
+
+.logo-container {
+    flex-shrink: 0;
+}
+
+.logo {
+    height: 50px;
+    /* Adjust the size as needed */
+    width: auto;
+}
+
+.nav-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    /* Adjust the color as needed */
+}
+
+.nav-links a:hover {
+    color: #007bff;
+    /* Adjust the hover color as needed */
+}
