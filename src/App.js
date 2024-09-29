@@ -12,6 +12,8 @@ import RouteDetails from './components/RouteDetails';
 import AboutUs from './components/AboutUs';
 import Navbar from './components/Navbar';
 import ContactUs from './components/ContactUs';
+import MyBookings from './components/MyBookings';
+import AdminDashboard from './components/AdminDashboard';
 
 const NavbarWrapper = ({ isLoggedIn, onLogout }) => {
   const location = useLocation();
@@ -49,6 +51,8 @@ function App() {
           <Route path="/route-details" element={<RouteDetails />} />
           <Route path="/about" element={<AboutUs />} />
           <Route path="/contact" element={<ContactUs />} />
+          <Route path="/my-bookings" element={<MyBookings />} />
+          <Route path="/admin/dashboard" element={<AdminDashboard />} />
         </Routes>
       </div>
     </Router>
